@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300&family=Lato:ital,wght@1,900&family=Montserrat:ital@1&family=Roboto+Mono:wght@300&family=Saira+Extra+Condensed:wght@200;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@200;300&family=Lato:ital,wght@1,900&family=Montserrat:ital@1&family=Roboto+Mono:wght@300&family=Saira+Extra+Condensed:wght@200;500;600&family=Source+Code+Pro:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.sidebar{
+    position: absolute;
+    background-color:rgb(160, 160, 160);
+    font-family: 'fira Sans',sans-serif;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding : 33px 0px;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.main{
+    /* background-color: blue; */
+    width: 90vw;
+    height: 100vh;
+}
+.container{
+    display: flex;
+}
+.information{
+    background-color: white;
+    height: 58vh;
+    width: 79vw;
+    margin: 92px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devInfo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+.devPic img{
+    height: 58vh;
+}
+.hello{
+    font-size: 50px;
+}
+.name{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'fira Sans',sans-serif;
+    
+}
+.about{
+    font-size: 20px;
+    font-family: 'fira Sans',sans-serif;
+
+}
+button{
+    padding: 7px 10px;
+    border-radius: 25px;
+    color: white;
+    background-color: royalblue;
+    font-size: 21px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: white;
+    color: darkcyan;
+}
+
+.contactForm{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'fira Sans',sans-serif;   
+}
+.contactForm h1{
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+}
+.contactForm div{
+    padding: 10px 0px;
+}
+.form-control{
+    border-radius: 10px;
+    width: 15vw;
+    padding: 4px;
+}
+.form-group{
+    margin: 1px 7px;
+    width: 38vw;
+    height: 5vh;
+}
+#emailHelp{ 
+    font-size: 11px;
+    color: midnightblue;
+}
+.form-mob{
+   
+}
+
+table ,th,td{
+    /* margin: 9vw; */
+    border:1px solid black;
+    text-align: center;
+    padding: 5px;
+}
+
+.sidebarGo{
+    transform: translate(-443px,0px);
+    position: absolute;
+}
+
+.ham-burger{
+   position: absolute; 
+   cursor: pointer;
+   top: 10px;
+   left: 10px;
+}
+
+#corss{
+    margin-left: 160px;
+}
+
+.skill-container{
+    padding: 12px;
+}
+.skill{
+    width: 245px;
+    height: 6px;
+    background-color: red;
+}
+
+.skill-item{
+    display: flex;
+    align-items: center;
+    font-weight: 900;
+}
+
+.hundered{
+    width: 265px;
+    border: solid black;
+}
+.fifty{
+    width: 125px;
+    border: solid black;
+}
+.t5{
+    width: 75px;
+    border: solid black;
+}
+
+.education-tbl{
+    margin: 35px 107px;
+    width: 70vw;
+}
+.education-tbl h1{
+    margin: 15px;
+}
+
+@media(max-width: 884px) {
+    .devPic{
+        display: none;
+    }
+}

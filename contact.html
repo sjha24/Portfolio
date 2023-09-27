@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Saurav Kumar - Web Developer , Programer</title>
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar sidebarGo">
+            <nav>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/intro.html">My Intro</a></li>
+                    <li><a href="/service.html">Services</a></li>
+                    <li><a href="/education.html">Education Details</a></li>
+                    <li><a href="/contact.html">Contact Me</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="main">
+            <div class="ham-burger">
+                <img class="ham" src="./ham.png" alt="hamburger" width="24px">
+                <img id="cross" src="./cross.png" alt="cross" width="24px">
+            </div>
+            <div class="contactForm">
+                <h1>Contact me for work/General Inquary</h1>
+                <form>
+                    <div class="mb-3">
+                        <label for="InputName">Name</label>
+                        <input type="text" class="form-control" id="name" aria-describedby="name"
+                            placeholder="Enter Your Name" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputEmail1">Email address</label>
+                        <input type="email" class="form-control" id="emailHelp" aria-describedby="emailHelp"
+                            placeholder="Enter email" />
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.</small>
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleInputPhoneNumber">Phone Number</label>
+                        <input type="number" class="form-control" id="exampleInputPhn"
+                            placeholder="Enter Phone Number" />
+                    </div>
+                    <div class="mb-3">
+                        <textarea name="Inquary" id="inq" cols="30" rows="10" placeholder="Enter Your Inquary"></textarea>
+                        <!-- <input type="text" class="form-control" id="inq" aria-describedby="name"
+                            placeholder="Enter Your Query" /> -->
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-box" id="exampleCheck1" />
+                        <label class="form-check-label" for="exampleCheck1">Check me out</label>
+                    </div>
+                    <button type="submit" class="button btn-primary">Submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+
+</html>
